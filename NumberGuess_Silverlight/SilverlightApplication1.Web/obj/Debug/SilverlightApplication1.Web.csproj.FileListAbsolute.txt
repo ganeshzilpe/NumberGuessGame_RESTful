@@ -1,0 +1,5 @@
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll.config
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb

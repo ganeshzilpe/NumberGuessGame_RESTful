@@ -1,0 +1,5 @@
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\NumberGuess_REST\bin\NumberGuess_REST.dll.config
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\NumberGuess_REST\bin\NumberGuess_REST.dll
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\NumberGuess_REST\bin\NumberGuess_REST.pdb
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\NumberGuess_REST\obj\Debug\NumberGuess_REST.dll
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\NumberGuess_REST\obj\Debug\NumberGuess_REST.pdb

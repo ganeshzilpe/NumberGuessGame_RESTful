@@ -1,0 +1,38 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="SilverlightApplication1.MainPage"
+    mc:Ignorable="d" Width="800" Height="728">
+
+    <UserControl.Resources>
+        <Storyboard x:Name="myStoryboard">
+            <DoubleAnimation Storyboard.TargetName="moveEcllipse"
+                Storyboard.TargetProperty="X"
+                From="-10" To="400" Duration="0:0:2.00"
+                AutoReverse="True"
+                RepeatBehavior="Forever" />
+        </Storyboard>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Background="White" Margin="10,10,-253,10">
+
+        <sdk:Label HorizontalAlignment="Left" Height="28" Margin="79,97,0,0" VerticalAlignment="Top" Width="120" Content="Lower Limit" FontSize="18"/>
+        <TextBox x:Name="LowerLimitTextbox" HorizontalAlignment="Left" Height="28" Margin="239,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <sdk:Label HorizontalAlignment="Left" Height="28" Margin="462,97,0,0" VerticalAlignment="Top" Width="120" Content="Upper Limit" FontSize="18"/>
+        <TextBox x:Name="UpperLimitTextbox" HorizontalAlignment="Left" Height="28" Margin="622,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <Button x:Name="Generate" Content="Generate Secret Number" HorizontalAlignment="Left" Margin="337,158,0,0" VerticalAlignment="Top" Width="245" FontSize="16" Click="Generate_Click"/>
+        <sdk:Label HorizontalAlignment="Left" Height="28" Margin="288,229,0,0" VerticalAlignment="Top" Width="153" Content="Make a Guess" FontSize="18"/>
+        <TextBox x:Name="GuessTextbox" HorizontalAlignment="Left" Height="28" Margin="480,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <sdk:Label x:Name="Result" HorizontalAlignment="Left" Height="28" Margin="495,362,0,0" VerticalAlignment="Top" Width="402" Content="The Number is: " FontSize="18"/>
+        <sdk:Label x:Name="Error" HorizontalAlignment="Left" Height="28" Margin="275,423,-59,0" VerticalAlignment="Top" Width="827" Content="" FontSize="18" FontWeight="Bold" Foreground="#FFEA1919"/>
+        <Button x:Name="Play" Content="Play" HorizontalAlignment="Left" Margin="373,297,0,0" VerticalAlignment="Top" Width="194" FontSize="16" Click="Play_Click"/>
+        <Ellipse Name="ellipse1" HorizontalAlignment="Left" Height="115" Margin="101,495,0,0" Stroke="Black" VerticalAlignment="Top" Width="125" Fill="#1E90FF" Tag="Hello">
+            <Ellipse.RenderTransform>
+                <TranslateTransform x:Name="moveEcllipse" />
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <sdk:Label x:Name="Attempts" HorizontalAlignment="Left" Height="28" Margin="262,362,0,0" VerticalAlignment="Top" Width="402" Content="Attempts: 0" FontSize="18"/>
+        <sdk:Label HorizontalAlignment="Left" Height="28" Margin="142,23,0,0" VerticalAlignment="Top" Width="725" Content="Welcome Number Guessing Game: Silverlight Implementation" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+    </Grid>
+</UserControl>

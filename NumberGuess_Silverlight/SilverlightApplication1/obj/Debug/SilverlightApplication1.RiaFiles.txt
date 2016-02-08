@@ -1,0 +1,2 @@
+c:\users\ganesh zilpe\documents\visual studio 2013\Projects\NumberGuess_Silverlight\SilverlightApplication1
+Generated_Code\SilverlightApplication1.Web.g.cs
