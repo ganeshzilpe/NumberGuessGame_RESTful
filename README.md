@@ -14,7 +14,9 @@ Tool/IDE
 Visual Studio version: 2013
 
 Solution 1: NumberGuessGame
+
 This RESTful project. In this solution, there are two projects:
+
 1.	NumberGuessGame: This is Rest Service and I have used WCF Service Application template.
 
 2.	NumberGuessRESTApplication: This is client and I have used .Net Web Application template. 
@@ -22,6 +24,7 @@ This RESTful project. In this solution, there are two projects:
 How to run: To run this solution, open solution in Visual Studio and make project NumberGuessRESTApplication as a Start Up project and run the solution as Start with Debugging.
 
 Solution 2: NumberGuess_Silverlight
+
 In this solution, there are two projects:
 
 3.	NumberGuess_REST: This is Rest Service and I have used WCF Service Application template.
